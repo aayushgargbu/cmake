@@ -1,0 +1,28 @@
+Determining if the function wsyncup exists in the /usr/lib/x86_64-linux-gnu/libcurses.so passed with the following output:
+Change Dir: /mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8e800/fast && make  -f CMakeFiles/cmTC_8e800.dir/build.make CMakeFiles/cmTC_8e800.dir/build
+make[1]: Entering directory '/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e800.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=wsyncup -o CMakeFiles/cmTC_8e800.dir/CheckFunctionExists.c.o -c /mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8e800
+/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_8e800.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=wsyncup -rdynamic CMakeFiles/cmTC_8e800.dir/CheckFunctionExists.c.o -o cmTC_8e800  -lcurses 
+make[1]: Leaving directory '/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cbreak exists in the /usr/lib/x86_64-linux-gnu/libncurses.so passed with the following output:
+Change Dir: /mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_231c2/fast && make  -f CMakeFiles/cmTC_231c2.dir/build.make CMakeFiles/cmTC_231c2.dir/build
+make[1]: Entering directory '/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_231c2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cbreak -o CMakeFiles/cmTC_231c2.dir/CheckFunctionExists.c.o -c /mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Modules/CheckFunctionExists.c
+Linking C executable cmTC_231c2
+/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTC_231c2.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=cbreak -rdynamic CMakeFiles/cmTC_231c2.dir/CheckFunctionExists.c.o -o cmTC_231c2  -lncurses 
+make[1]: Leaving directory '/mnt/c/GitHub/cmake/cmake-3.18.0-rc2/Source/Checks/Curses-build/CMakeFiles/CMakeTmp'
+
+
+
